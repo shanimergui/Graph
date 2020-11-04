@@ -63,7 +63,7 @@ public class Graph_Ex0_Test2 {
         int no = 1000*50, ed = 302650;
         test_n(no, ed,3,9,1000);
         test_connectivity(100,1);
-        test_path(10,1);
+        //test_path(10,1);
         long end = new Date().getTime();
         double dt = (end-start)/1000.0;
         boolean t = dt<10;
